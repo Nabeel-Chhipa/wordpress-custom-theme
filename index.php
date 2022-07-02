@@ -34,44 +34,7 @@
 <body>
   <div class="hero_area">
     <!-- header section strats -->
-    <header class="header_section">
-      <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
-          <a class="navbar-brand" href="index.html">
-            <img src="<?php echo bloginfo('template_directory') ?>/images/logo.png" alt="" />
-            <span>
-              Medi
-            </span>
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
-              <ul class="navbar-nav  ">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about.html"> About </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="product.html"> Product </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="client.html"> Client </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact us</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </div>
-    </header>
+      <?php get_header(); ?>
     <!-- end header section -->
     <!-- hero section -->
     <section class="hero_section">
@@ -363,67 +326,7 @@
 
   <!-- end client section -->
 
-  <!-- info section -->
-  <section class="info_section layout_padding">
-    <div class="container layout_padding-top  layout_padding2-bottom">
-      <div class="logo-box">
-        <a href="index.html">
-          <img src="<?php echo bloginfo('template_directory') ?>/images/info-logo.png" alt="">
-        </a>
-      </div>
-      <div class="info_items">
-        <a href="">
-          <div class="item ">
-            <div class="img-box box-1">
-              <img src="<?php echo bloginfo('template_directory') ?>/images/location-white.png" alt="" />
-            </div>
-            <div class="detail-box">
-              <p>
-                It is a long established fact that a reader will be distracted by the readable content of a page when
-                looking at its layout. The point of using Lorem
-              </p>
-            </div>
-          </div>
-        </a>
-        <a href="">
-          <div class="item ">
-            <div class="img-box box-3">
-              <img src="<?php echo bloginfo('template_directory') ?>/images/envelope-white.png" alt="" />
-            </div>
-            <div class="detail-box">
-              <p>
-                demo@gmail.com
-              </p>
-            </div>
-          </div>
-        </a>
-        <a href="">
-          <div class="item ">
-            <div class="img-box box-2">
-              <img src="<?php echo bloginfo('template_directory') ?>/images/telephone-white.png" alt="" />
-            </div>
-            <div class="detail-box">
-              <p>
-                +02 1234567890
-              </p>
-            </div>
-          </div>
-        </a>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- end info_section -->
-
-  <!-- footer section -->
-  <section class="container-fluid footer_section">
-    <p>
-      &copy; 2019 All Rights Reserved By
-      <a href="#">Free Html Templates</a>
-    </p>
-  </section>
-  <!-- footer section -->
+  <?php get_footer(); ?>
 
   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.js"></script>
