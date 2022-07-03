@@ -97,6 +97,8 @@ body {
   margin: 0 auto;
 }
 
+
+
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
   padding: 10px 30px;
   color: #ffffff;
@@ -178,6 +180,8 @@ a:focus {
       -ms-flex-align: center;
           align-items: center;
 }
+
+
 
 .custom_nav-container .navbar-toggler {
   outline: none;

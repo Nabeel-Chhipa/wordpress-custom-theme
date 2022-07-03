@@ -32,47 +32,8 @@
 </head>
 
 <body>
-  <div class="hero_area">
-    <!-- header section strats -->
-      <?php get_header(); ?>
-    <!-- end header section -->
-    <!-- hero section -->
-    <section class="hero_section">
-      <div class="hero_detail">
-        <h1>
-          <span>
-            h
-          </span>
-          <span>
-            e
-          </span>
-          <span>
-            r
-          </span>
-          <span>
-            b
-          </span>
-          <span>
-            a
-          </span>
-          <span>
-            l
-          </span>
-        </h1>
-        <h3>
-          Natural product
-          </h2>
-      </div>
-      <div class="hero_btn-box">
-        <a href="">
-          Contact Us
-        </a>
-      </div>
-    </section>
-    <!-- end hero section -->
-  </div>
-  <!-- end hero area -->
-
+  
+  <?php get_header(); ?>
 
   <!-- about section -->
   <section class="about_section layout_padding">
